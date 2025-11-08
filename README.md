@@ -30,9 +30,14 @@ SwiftUI MVVM, Core Data, Combine 학습 - [Swiftful Thinking 강의](https://www
 - [ ] Lecture 26 - Changing the Color Scheme
 
 ## 주요 학습 내용
-### UI & Components
-- 재사용 가능한 컴포넌트 설계 (Lecture 02)
-- 애니메이션 제어 (Lecture 02)
+### MVVM Pattern
+- ViewModel 구현 및 데이터 바인딩 (Lecture XX)
 
-### State Management
-- `@State`/`@Binding` (Lecture 02)
+### Combine
+- Publisher/Subscriber 패턴 (Lecture XX)
+
+### Core Data
+- 엔티티 설계 및 CRUD 구현 (Lecture 15)
+
+### Networking
+- API 서비스 레이어 구축 (Lecture 07)
