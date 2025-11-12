@@ -52,7 +52,7 @@ import Foundation
  
  */
 
-struct CoinModel: Identifiable, Codable {    
+struct CoinModel: Identifiable, Codable {
     let id, symbol, name: String
     let image: String
     let currentPrice: Double
@@ -69,6 +69,7 @@ struct CoinModel: Identifiable, Codable {
     let lastUpdated: String?
     let sparklineIn7D: SparklineIn7D?
     let priceChangePercentage24HInCurrency: Double?
+    let currentHoldings: Double?  // how many coins the current user is holding
 }
 
 struct SparklineIn7D: Codable {
