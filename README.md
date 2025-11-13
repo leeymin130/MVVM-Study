@@ -4,7 +4,7 @@ SwiftUI MVVM, Core Data, Combine 학습 - [Swiftful Thinking 강의](https://www
 
 ## 학습 진행 상황
 - [x] Lecture 02 - HomeView Header
-- [ ] Lecture 03 - Creating CoinModel
+- [x] Lecture 03 - Creating CoinModel
 - [ ] Lecture 04 - Creating CoinRowView
 - [ ] Lecture 05 - Adding a List of Coins
 - [ ] Lecture 06 - Downloading Coin Data
