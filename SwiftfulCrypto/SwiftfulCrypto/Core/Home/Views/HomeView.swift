@@ -39,6 +39,7 @@ struct HomView_Previews: PreviewProvider {
             HomeView()
                 .navigationBarHidden(true)
         }
+        .environmentObject(dev.homeVM)
     }
 }
 
