@@ -6,7 +6,7 @@ SwiftUI MVVM, Core Data, Combine 학습 - [Swiftful Thinking 강의](https://www
 - [x] Lecture 02 - HomeView Header
 - [x] Lecture 03 - Creating CoinModel
 - [x] Lecture 04 - Creating CoinRowView
-- [ ] Lecture 05 - Adding a List of Coins
+- [x] Lecture 05 - Adding a List of Coins
 - [ ] Lecture 06 - Downloading Coin Data
 - [ ] Lecture 07 - Adding a Networking Layer
 - [ ] Lecture 08 - Downloading Coin Images
@@ -31,7 +31,7 @@ SwiftUI MVVM, Core Data, Combine 학습 - [Swiftful Thinking 강의](https://www
 
 ## 주요 학습 내용
 ### MVVM Pattern
-- ViewModel 구현 및 데이터 바인딩 (Lecture XX)
+- ViewModel 구현 및 데이터 바인딩 (Lecture 05)
 
 ### Combine
 - Publisher/Subscriber 패턴 (Lecture XX)
