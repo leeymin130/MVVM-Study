@@ -11,7 +11,8 @@ import Combine
 class CoinDataService {
     
     @Published var allCoins: [CoinModel] = []
-    var cancellables = Set<AnyCancellable>()
+    
+    var coinSubscriptions: AnyCancellable?
     
     init() {
         getCoins()
@@ -21,7 +22,7 @@ class CoinDataService {
         
         guard let url = URL(string: "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&price_change_percentage=24h&per_page=250&order=market_cap_desc&page=1&sparkline=true") else { return }
         
-        URLSession.shared.dataTaskPublisher(for: url)
+        coinSubscriptions = URLSession.shared.dataTaskPublisher(for: url)
             .subscribe(on: DispatchQueue.global(qos: .default))
             .tryMap { (output) -> Data in
                 
@@ -42,8 +43,8 @@ class CoinDataService {
                 }
             } receiveValue: { [weak self] (returnedCoins) in
                 self?.allCoins = returnedCoins
+                self?.coinSubscriptions?.cancel()
             }
-            .store(in: &cancellables)
         
     }
 }
