@@ -34,10 +34,10 @@ SwiftUI MVVM, Core Data, Combine 학습 - [Swiftful Thinking 강의](https://www
 - ViewModel 구현 및 데이터 바인딩 (Lecture 05)
 
 ### Combine
-- Publisher/Subscriber 패턴 (Lecture XX)
+- Publisher/Subscriber 패턴 (Lecture 06, 07, 08)
 
 ### Core Data
 - 엔티티 설계 및 CRUD 구현 (Lecture 15)
 
 ### Networking
-- API 서비스 레이어 구축 (Lecture 07)
+- API 서비스 레이어 구축 (Lecture 07, 08)
