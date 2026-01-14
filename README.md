@@ -8,8 +8,8 @@ SwiftUI MVVM, Core Data, Combine 학습 - [Swiftful Thinking 강의](https://www
 - [x] Lecture 04 - Creating CoinRowView
 - [x] Lecture 05 - Adding a List of Coins
 - [x] Lecture 06 - Downloading Coin Data
-- [ ] Lecture 07 - Adding a Networking Layer
-- [ ] Lecture 08 - Downloading Coin Images
+- [x] Lecture 07 - Adding a Networking Layer
+- [x] Lecture 08 - Downloading Coin Images
 - [ ] Lecture 09 - Saving Images to FileManager
 - [ ] Lecture 10 - Adding a Search Bar
 - [ ] Lecture 11 - Filtering based on search
