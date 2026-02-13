@@ -21,7 +21,6 @@ struct SearchBarView: View {
             
             TextField("Search by name or symbol...", text: $searchText)
                 .foregroundColor(Color.theme.accent)
-//                .disableAutocorrection(true)
                 .autocorrectionDisabled(true)
                 .keyboardType(.alphabet)
                 .overlay(
