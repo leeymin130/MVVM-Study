@@ -10,9 +10,9 @@ SwiftUI MVVM, Core Data, Combine 학습 - [Swiftful Thinking 강의](https://www
 - [x] Lecture 06 - Downloading Coin Data
 - [x] Lecture 07 - Adding a Networking Layer
 - [x] Lecture 08 - Downloading Coin Images
-- [ ] Lecture 09 - Saving Images to FileManager
-- [ ] Lecture 10 - Adding a Search Bar
-- [ ] Lecture 11 - Filtering based on search
+- [x] Lecture 09 - Saving Images to FileManager
+- [x] Lecture 10 - Adding a Search Bar
+- [x] Lecture 11 - Filtering based on search
 - [ ] Lecture 12 - Adding Market Statistics Section
 - [ ] Lecture 13 - Downloading Market Data
 - [ ] Lecture 14 - Creating PortfolioView
@@ -31,13 +31,13 @@ SwiftUI MVVM, Core Data, Combine 학습 - [Swiftful Thinking 강의](https://www
 
 ## 주요 학습 내용
 ### MVVM Pattern
-- ViewModel 구현 및 데이터 바인딩 (Lecture 05)
+- ViewModel 구현 및 데이터 바인딩 (Lecture [05](https://github.com/leeymin130/MVVM-Study/pull/4))
 
 ### Combine
-- Publisher/Subscriber 패턴 (Lecture 06, 07, 08)
+- Publisher/Subscriber 패턴 (Lecture [06](https://github.com/leeymin130/MVVM-Study/pull/5), [07](https://github.com/leeymin130/MVVM-Study/pull/6), [08](https://github.com/leeymin130/MVVM-Study/pull/7))
 
 ### Core Data
 - 엔티티 설계 및 CRUD 구현 (Lecture 15)
 
 ### Networking
-- API 서비스 레이어 구축 (Lecture 07, 08)
+- API 서비스 레이어 구축 (Lecture [07](https://github.com/leeymin130/MVVM-Study/pull/6), [08](https://github.com/leeymin130/MVVM-Study/pull/7))
